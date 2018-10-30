@@ -11,4 +11,8 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = s.name.to_s + '.framework'
   s.source           = { :http => s.homepage.to_s + '/raw/master/builds/' + s.name.to_s + '_' + s.version.to_s + '.zip' }
   s.exclude_files = "Classes/Exclude"
+  s.dependency 'CardConnectionWrapper', '~> 0.3.3'
+  s.dependency 'AheadOpenSSL', '~> 0.2.4'
+  s.dependency 'AheadTLV', '~> 0.1.3'
+
 end
