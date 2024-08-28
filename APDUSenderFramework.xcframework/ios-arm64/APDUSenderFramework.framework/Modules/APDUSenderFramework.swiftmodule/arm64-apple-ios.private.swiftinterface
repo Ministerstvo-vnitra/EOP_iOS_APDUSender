@@ -1,0 +1,130 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name APDUSenderFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import APDUSenderFramework
+import AheadTLV
+import CardConnectionWrapper
+import CoreBluetooth
+import Foundation
+import OpenSSL
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class APDURequest {
+  public init(ins: APDUSenderFramework.ApduInstructionSet, param1: Swift.UInt8, param2: Swift.UInt8, data: [Swift.UInt8], responseLength: Swift.UInt8?)
+  @objc deinit
+}
+public protocol WithKey {
+  var kEnc: [Swift.UInt8] { get }
+  var kMac: [Swift.UInt8] { get }
+}
+public class APDUSender {
+  public init(cardConnection: any CardConnectionWrapper.ProvidingCardConnection, secureMessagingInfo: APDUSenderFramework.SecureMessagingInfo)
+  public func sendAPDU(apduRequest: APDUSenderFramework.APDURequest, useSecureMessaging: Swift.Bool = false) throws -> APDUSenderFramework.APDUResponse
+  public func getATR() throws -> [Swift.UInt8]
+  public func reset() throws
+  @objc deinit
+}
+public class SecureMessagingInfo {
+  public init(keys: any APDUSenderFramework.WithKey)
+  @objc deinit
+}
+public enum ApduInstructionSet : Swift.UInt8 {
+  case pso
+  case mse
+  case applicationInformation
+  case dataObjects
+  case verify
+  case initialize
+  case finalize
+  case read
+  case getResponse
+  case getChallenge
+  case mutualAuthenticate
+  public init?(rawValue: Swift.UInt8)
+  public typealias RawValue = Swift.UInt8
+  public var rawValue: Swift.UInt8 {
+    get
+  }
+}
+public enum APDUSenderError : Swift.Error {
+  case communicationError(any Swift.CustomStringConvertible)
+  case invalidDataError
+  case statusWordError(statusWord: APDUSenderFramework.StatusWord)
+  case securityError(message: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class CryptoUtils {
+  public static func sha1(data: [Swift.UInt8]) -> [Swift.UInt8]
+  public static func sha224(data: [Swift.UInt8]) -> [Swift.UInt8]
+  public static func sha256(data: [Swift.UInt8]) -> [Swift.UInt8]
+  public static func sha384(data: [Swift.UInt8]) -> [Swift.UInt8]
+  public static func sha512(data: [Swift.UInt8]) -> [Swift.UInt8]
+  @objc deinit
+}
+public enum StatusWord : Swift.RawRepresentable, Swift.Equatable {
+  public init(rawValue: Swift.UInt16)
+  public var rawValue: Swift.UInt16 {
+    get
+  }
+  public static func == (lhs: APDUSenderFramework.StatusWord, rhs: APDUSenderFramework.StatusWord) -> Swift.Bool
+  case unknown(Swift.UInt16)
+  case success
+  case partOfReturnedDataMayBeCorrupted
+  case selectedFileInvalidated
+  case lengthFieldIncorrect
+  case noInformationGiven
+  case comNotAllowedSecurityStatusNotSatisfied
+  case comNotAllowedAuthMethodBlocked
+  case commNotAllowedRefDataInvalidated
+  case comNotAllowedConditionsOfUseNotSatisfied
+  case appletSelectionFailed
+  case incorrectParamsInDataField
+  case functionNotSupported
+  case fileOrApplicationNotFound
+  case recordNotFound
+  case incorrectParametersP1P2
+  case ncInconsistentWithParametersP1P2
+  case referenceDataNotFound
+  case instructionCodeNotSupportedOrInvalid
+  case classNotSupported
+  case noPreciseDiagnosis
+  case authenticationFailed
+  case authenticationFailedWithTriesLeft(APDUSenderFramework.TriesLeft)
+  public typealias RawValue = Swift.UInt16
+}
+public enum TriesLeft : Swift.UInt16 {
+  case left0
+  case left1
+  case left2
+  case left3
+  case left4
+  case left5
+  case left6
+  case left7
+  case left8
+  case left9
+  case left10
+  case left11
+  case left12
+  case left13
+  case left14
+  case left15
+  public init?(rawValue: Swift.UInt16)
+  public typealias RawValue = Swift.UInt16
+  public var rawValue: Swift.UInt16 {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class APDUResponse {
+  final public let data: [Swift.UInt8]
+  final public let statusWord: APDUSenderFramework.StatusWord
+  @objc deinit
+}
+extension APDUSenderFramework.ApduInstructionSet : Swift.Equatable {}
+extension APDUSenderFramework.ApduInstructionSet : Swift.Hashable {}
+extension APDUSenderFramework.ApduInstructionSet : Swift.RawRepresentable {}
+extension APDUSenderFramework.TriesLeft : Swift.Equatable {}
+extension APDUSenderFramework.TriesLeft : Swift.Hashable {}
+extension APDUSenderFramework.TriesLeft : Swift.RawRepresentable {}
