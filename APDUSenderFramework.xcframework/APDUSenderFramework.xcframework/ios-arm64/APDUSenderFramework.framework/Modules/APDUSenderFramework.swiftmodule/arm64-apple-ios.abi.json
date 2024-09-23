@@ -1,0 +1,4436 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APDURequest",
+        "printedName": "APDURequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ins:param1:param2:data:responseLength:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APDURequest",
+                "printedName": "APDUSenderFramework.APDURequest",
+                "usr": "s:19APDUSenderFramework11APDURequestC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApduInstructionSet",
+                "printedName": "APDUSenderFramework.ApduInstructionSet",
+                "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt8?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19APDUSenderFramework11APDURequestC3ins6param16param24data14responseLengthAcA18ApduInstructionSetO_s5UInt8VALSayALGALSgtcfc",
+            "mangledName": "$s19APDUSenderFramework11APDURequestC3ins6param16param24data14responseLengthAcA18ApduInstructionSetO_s5UInt8VALSayALGALSgtcfc",
+            "moduleName": "APDUSenderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19APDUSenderFramework11APDURequestC",
+        "mangledName": "$s19APDUSenderFramework11APDURequestC",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WithKey",
+        "printedName": "WithKey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "kEnc",
+            "printedName": "kEnc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APDUSenderFramework7WithKeyP4kEncSays5UInt8VGvp",
+            "mangledName": "$s19APDUSenderFramework7WithKeyP4kEncSays5UInt8VGvp",
+            "moduleName": "APDUSenderFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APDUSenderFramework7WithKeyP4kEncSays5UInt8VGvg",
+                "mangledName": "$s19APDUSenderFramework7WithKeyP4kEncSays5UInt8VGvg",
+                "moduleName": "APDUSenderFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : APDUSenderFramework.WithKey>",
+                "sugared_genericSig": "<Self where Self : APDUSenderFramework.WithKey>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "kMac",
+            "printedName": "kMac",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APDUSenderFramework7WithKeyP4kMacSays5UInt8VGvp",
+            "mangledName": "$s19APDUSenderFramework7WithKeyP4kMacSays5UInt8VGvp",
+            "moduleName": "APDUSenderFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APDUSenderFramework7WithKeyP4kMacSays5UInt8VGvg",
+                "mangledName": "$s19APDUSenderFramework7WithKeyP4kMacSays5UInt8VGvg",
+                "moduleName": "APDUSenderFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : APDUSenderFramework.WithKey>",
+                "sugared_genericSig": "<Self where Self : APDUSenderFramework.WithKey>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19APDUSenderFramework7WithKeyP",
+        "mangledName": "$s19APDUSenderFramework7WithKeyP",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardConnectionWrapper",
+        "printedName": "CardConnectionWrapper",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APDUSender",
+        "printedName": "APDUSender",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cardConnection:secureMessagingInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APDUSender",
+                "printedName": "APDUSenderFramework.APDUSender",
+                "usr": "s:19APDUSenderFramework0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProvidingCardConnection",
+                "printedName": "any CardConnectionWrapper.ProvidingCardConnection",
+                "usr": "s:21CardConnectionWrapper09ProvidingaB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SecureMessagingInfo",
+                "printedName": "APDUSenderFramework.SecureMessagingInfo",
+                "usr": "s:19APDUSenderFramework19SecureMessagingInfoC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19APDUSenderFramework0A0C14cardConnection19secureMessagingInfoAC04CardD7Wrapper09ProvidinghD0_p_AA06SecurefG0Ctcfc",
+            "mangledName": "$s19APDUSenderFramework0A0C14cardConnection19secureMessagingInfoAC04CardD7Wrapper09ProvidinghD0_p_AA06SecurefG0Ctcfc",
+            "moduleName": "APDUSenderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sendAPDU",
+            "printedName": "sendAPDU(apduRequest:useSecureMessaging:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APDUResponse",
+                "printedName": "APDUSenderFramework.APDUResponse",
+                "usr": "s:19APDUSenderFramework12APDUResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APDURequest",
+                "printedName": "APDUSenderFramework.APDURequest",
+                "usr": "s:19APDUSenderFramework11APDURequestC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APDUSenderFramework0A0C8sendAPDU11apduRequest18useSecureMessagingAA12APDUResponseCAA11APDURequestC_SbtKF",
+            "mangledName": "$s19APDUSenderFramework0A0C8sendAPDU11apduRequest18useSecureMessagingAA12APDUResponseCAA11APDURequestC_SbtKF",
+            "moduleName": "APDUSenderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getATR",
+            "printedName": "getATR()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APDUSenderFramework0A0C6getATRSays5UInt8VGyKF",
+            "mangledName": "$s19APDUSenderFramework0A0C6getATRSays5UInt8VGyKF",
+            "moduleName": "APDUSenderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APDUSenderFramework0A0C5resetyyKF",
+            "mangledName": "$s19APDUSenderFramework0A0C5resetyyKF",
+            "moduleName": "APDUSenderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19APDUSenderFramework0A0C",
+        "mangledName": "$s19APDUSenderFramework0A0C",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SecureMessagingInfo",
+        "printedName": "SecureMessagingInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(keys:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SecureMessagingInfo",
+                "printedName": "APDUSenderFramework.SecureMessagingInfo",
+                "usr": "s:19APDUSenderFramework19SecureMessagingInfoC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WithKey",
+                "printedName": "any APDUSenderFramework.WithKey",
+                "usr": "s:19APDUSenderFramework7WithKeyP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19APDUSenderFramework19SecureMessagingInfoC4keysAcA7WithKey_p_tcfc",
+            "mangledName": "$s19APDUSenderFramework19SecureMessagingInfoC4keysAcA7WithKey_p_tcfc",
+            "moduleName": "APDUSenderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19APDUSenderFramework19SecureMessagingInfoC",
+        "mangledName": "$s19APDUSenderFramework19SecureMessagingInfoC",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApduInstructionSet",
+        "printedName": "ApduInstructionSet",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pso",
+            "printedName": "pso",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.ApduInstructionSet.Type) -> APDUSenderFramework.ApduInstructionSet",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApduInstructionSet",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet",
+                    "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApduInstructionSet",
+                        "printedName": "APDUSenderFramework.ApduInstructionSet",
+                        "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO3psoyA2CmF",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO3psoyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "mse",
+            "printedName": "mse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.ApduInstructionSet.Type) -> APDUSenderFramework.ApduInstructionSet",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApduInstructionSet",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet",
+                    "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApduInstructionSet",
+                        "printedName": "APDUSenderFramework.ApduInstructionSet",
+                        "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO3mseyA2CmF",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO3mseyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "applicationInformation",
+            "printedName": "applicationInformation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.ApduInstructionSet.Type) -> APDUSenderFramework.ApduInstructionSet",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApduInstructionSet",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet",
+                    "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApduInstructionSet",
+                        "printedName": "APDUSenderFramework.ApduInstructionSet",
+                        "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO22applicationInformationyA2CmF",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO22applicationInformationyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "dataObjects",
+            "printedName": "dataObjects",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.ApduInstructionSet.Type) -> APDUSenderFramework.ApduInstructionSet",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApduInstructionSet",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet",
+                    "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApduInstructionSet",
+                        "printedName": "APDUSenderFramework.ApduInstructionSet",
+                        "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO11dataObjectsyA2CmF",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO11dataObjectsyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "verify",
+            "printedName": "verify",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.ApduInstructionSet.Type) -> APDUSenderFramework.ApduInstructionSet",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApduInstructionSet",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet",
+                    "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApduInstructionSet",
+                        "printedName": "APDUSenderFramework.ApduInstructionSet",
+                        "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO6verifyyA2CmF",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO6verifyyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "initialize",
+            "printedName": "initialize",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.ApduInstructionSet.Type) -> APDUSenderFramework.ApduInstructionSet",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApduInstructionSet",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet",
+                    "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApduInstructionSet",
+                        "printedName": "APDUSenderFramework.ApduInstructionSet",
+                        "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO10initializeyA2CmF",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO10initializeyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "finalize",
+            "printedName": "finalize",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.ApduInstructionSet.Type) -> APDUSenderFramework.ApduInstructionSet",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApduInstructionSet",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet",
+                    "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApduInstructionSet",
+                        "printedName": "APDUSenderFramework.ApduInstructionSet",
+                        "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO8finalizeyA2CmF",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO8finalizeyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "read",
+            "printedName": "read",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.ApduInstructionSet.Type) -> APDUSenderFramework.ApduInstructionSet",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApduInstructionSet",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet",
+                    "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApduInstructionSet",
+                        "printedName": "APDUSenderFramework.ApduInstructionSet",
+                        "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO4readyA2CmF",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO4readyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "getResponse",
+            "printedName": "getResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.ApduInstructionSet.Type) -> APDUSenderFramework.ApduInstructionSet",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApduInstructionSet",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet",
+                    "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApduInstructionSet",
+                        "printedName": "APDUSenderFramework.ApduInstructionSet",
+                        "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO11getResponseyA2CmF",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO11getResponseyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "getChallenge",
+            "printedName": "getChallenge",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.ApduInstructionSet.Type) -> APDUSenderFramework.ApduInstructionSet",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApduInstructionSet",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet",
+                    "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApduInstructionSet",
+                        "printedName": "APDUSenderFramework.ApduInstructionSet",
+                        "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO12getChallengeyA2CmF",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO12getChallengeyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "mutualAuthenticate",
+            "printedName": "mutualAuthenticate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.ApduInstructionSet.Type) -> APDUSenderFramework.ApduInstructionSet",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApduInstructionSet",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet",
+                    "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApduInstructionSet",
+                        "printedName": "APDUSenderFramework.ApduInstructionSet",
+                        "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO18mutualAuthenticateyA2CmF",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO18mutualAuthenticateyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "APDUSenderFramework.ApduInstructionSet?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApduInstructionSet",
+                    "printedName": "APDUSenderFramework.ApduInstructionSet",
+                    "usr": "s:19APDUSenderFramework18ApduInstructionSetO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO8rawValueACSgs5UInt8V_tcfc",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO8rawValueACSgs5UInt8V_tcfc",
+            "moduleName": "APDUSenderFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APDUSenderFramework18ApduInstructionSetO8rawValues5UInt8Vvp",
+            "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO8rawValues5UInt8Vvp",
+            "moduleName": "APDUSenderFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APDUSenderFramework18ApduInstructionSetO8rawValues5UInt8Vvg",
+                "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO8rawValues5UInt8Vvg",
+                "moduleName": "APDUSenderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19APDUSenderFramework18ApduInstructionSetO",
+        "mangledName": "$s19APDUSenderFramework18ApduInstructionSetO",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "UInt8",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APDUSenderError",
+        "printedName": "APDUSenderError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "communicationError",
+            "printedName": "communicationError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.APDUSenderError.Type) -> (any Swift.CustomStringConvertible) -> APDUSenderFramework.APDUSenderError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.CustomStringConvertible) -> APDUSenderFramework.APDUSenderError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APDUSenderError",
+                        "printedName": "APDUSenderFramework.APDUSenderError",
+                        "usr": "s:19APDUSenderFramework0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomStringConvertible",
+                        "printedName": "any Swift.CustomStringConvertible",
+                        "usr": "s:s23CustomStringConvertibleP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.APDUSenderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APDUSenderError",
+                        "printedName": "APDUSenderFramework.APDUSenderError",
+                        "usr": "s:19APDUSenderFramework0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework0A5ErrorO013communicationC0yACs23CustomStringConvertible_pcACmF",
+            "mangledName": "$s19APDUSenderFramework0A5ErrorO013communicationC0yACs23CustomStringConvertible_pcACmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidDataError",
+            "printedName": "invalidDataError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.APDUSenderError.Type) -> APDUSenderFramework.APDUSenderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APDUSenderError",
+                    "printedName": "APDUSenderFramework.APDUSenderError",
+                    "usr": "s:19APDUSenderFramework0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.APDUSenderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APDUSenderError",
+                        "printedName": "APDUSenderFramework.APDUSenderError",
+                        "usr": "s:19APDUSenderFramework0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework0A5ErrorO011invalidDataC0yA2CmF",
+            "mangledName": "$s19APDUSenderFramework0A5ErrorO011invalidDataC0yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "statusWordError",
+            "printedName": "statusWordError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.APDUSenderError.Type) -> (APDUSenderFramework.StatusWord) -> APDUSenderFramework.APDUSenderError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(APDUSenderFramework.StatusWord) -> APDUSenderFramework.APDUSenderError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APDUSenderError",
+                        "printedName": "APDUSenderFramework.APDUSenderError",
+                        "usr": "s:19APDUSenderFramework0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusWord: APDUSenderFramework.StatusWord)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StatusWord",
+                            "printedName": "APDUSenderFramework.StatusWord",
+                            "usr": "s:19APDUSenderFramework10StatusWordO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.APDUSenderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APDUSenderError",
+                        "printedName": "APDUSenderFramework.APDUSenderError",
+                        "usr": "s:19APDUSenderFramework0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework0A5ErrorO010statusWordC0yAcA06StatusE0O_tcACmF",
+            "mangledName": "$s19APDUSenderFramework0A5ErrorO010statusWordC0yAcA06StatusE0O_tcACmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "securityError",
+            "printedName": "securityError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.APDUSenderError.Type) -> (Swift.String) -> APDUSenderFramework.APDUSenderError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> APDUSenderFramework.APDUSenderError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APDUSenderError",
+                        "printedName": "APDUSenderFramework.APDUSenderError",
+                        "usr": "s:19APDUSenderFramework0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.APDUSenderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APDUSenderError",
+                        "printedName": "APDUSenderFramework.APDUSenderError",
+                        "usr": "s:19APDUSenderFramework0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework0A5ErrorO08securityC0yACSS_tcACmF",
+            "mangledName": "$s19APDUSenderFramework0A5ErrorO08securityC0yACSS_tcACmF",
+            "moduleName": "APDUSenderFramework"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19APDUSenderFramework0A5ErrorO",
+        "mangledName": "$s19APDUSenderFramework0A5ErrorO",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AheadTLV",
+        "printedName": "AheadTLV",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenSSL",
+        "printedName": "OpenSSL",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CryptoUtils",
+        "printedName": "CryptoUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sha1",
+            "printedName": "sha1(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APDUSenderFramework11CryptoUtilsC4sha14dataSays5UInt8VGAH_tFZ",
+            "mangledName": "$s19APDUSenderFramework11CryptoUtilsC4sha14dataSays5UInt8VGAH_tFZ",
+            "moduleName": "APDUSenderFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sha224",
+            "printedName": "sha224(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APDUSenderFramework11CryptoUtilsC6sha2244dataSays5UInt8VGAH_tFZ",
+            "mangledName": "$s19APDUSenderFramework11CryptoUtilsC6sha2244dataSays5UInt8VGAH_tFZ",
+            "moduleName": "APDUSenderFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sha256",
+            "printedName": "sha256(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APDUSenderFramework11CryptoUtilsC6sha2564dataSays5UInt8VGAH_tFZ",
+            "mangledName": "$s19APDUSenderFramework11CryptoUtilsC6sha2564dataSays5UInt8VGAH_tFZ",
+            "moduleName": "APDUSenderFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sha384",
+            "printedName": "sha384(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APDUSenderFramework11CryptoUtilsC6sha3844dataSays5UInt8VGAH_tFZ",
+            "mangledName": "$s19APDUSenderFramework11CryptoUtilsC6sha3844dataSays5UInt8VGAH_tFZ",
+            "moduleName": "APDUSenderFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sha512",
+            "printedName": "sha512(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APDUSenderFramework11CryptoUtilsC6sha5124dataSays5UInt8VGAH_tFZ",
+            "mangledName": "$s19APDUSenderFramework11CryptoUtilsC6sha5124dataSays5UInt8VGAH_tFZ",
+            "moduleName": "APDUSenderFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19APDUSenderFramework11CryptoUtilsC",
+        "mangledName": "$s19APDUSenderFramework11CryptoUtilsC",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StatusWord",
+        "printedName": "StatusWord",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StatusWord",
+                "printedName": "APDUSenderFramework.StatusWord",
+                "usr": "s:19APDUSenderFramework10StatusWordO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19APDUSenderFramework10StatusWordO8rawValueACs6UInt16V_tcfc",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO8rawValueACs6UInt16V_tcfc",
+            "moduleName": "APDUSenderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APDUSenderFramework10StatusWordO8rawValues6UInt16Vvp",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO8rawValues6UInt16Vvp",
+            "moduleName": "APDUSenderFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APDUSenderFramework10StatusWordO8rawValues6UInt16Vvg",
+                "mangledName": "$s19APDUSenderFramework10StatusWordO8rawValues6UInt16Vvg",
+                "moduleName": "APDUSenderFramework",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StatusWord",
+                "printedName": "APDUSenderFramework.StatusWord",
+                "usr": "s:19APDUSenderFramework10StatusWordO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StatusWord",
+                "printedName": "APDUSenderFramework.StatusWord",
+                "usr": "s:19APDUSenderFramework10StatusWordO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19APDUSenderFramework10StatusWordO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO2eeoiySbAC_ACtFZ",
+            "moduleName": "APDUSenderFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> (Swift.UInt16) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.UInt16) -> APDUSenderFramework.StatusWord",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO7unknownyACs6UInt16VcACmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO7unknownyACs6UInt16VcACmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO7successyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO7successyA2CmF",
+            "moduleName": "APDUSenderFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "partOfReturnedDataMayBeCorrupted",
+            "printedName": "partOfReturnedDataMayBeCorrupted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO32partOfReturnedDataMayBeCorruptedyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO32partOfReturnedDataMayBeCorruptedyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "selectedFileInvalidated",
+            "printedName": "selectedFileInvalidated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO23selectedFileInvalidatedyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO23selectedFileInvalidatedyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "lengthFieldIncorrect",
+            "printedName": "lengthFieldIncorrect",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO20lengthFieldIncorrectyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO20lengthFieldIncorrectyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "noInformationGiven",
+            "printedName": "noInformationGiven",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO18noInformationGivenyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO18noInformationGivenyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "comNotAllowedSecurityStatusNotSatisfied",
+            "printedName": "comNotAllowedSecurityStatusNotSatisfied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO021comNotAllowedSecuritycF9SatisfiedyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO021comNotAllowedSecuritycF9SatisfiedyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "comNotAllowedAuthMethodBlocked",
+            "printedName": "comNotAllowedAuthMethodBlocked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO30comNotAllowedAuthMethodBlockedyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO30comNotAllowedAuthMethodBlockedyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "commNotAllowedRefDataInvalidated",
+            "printedName": "commNotAllowedRefDataInvalidated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO32commNotAllowedRefDataInvalidatedyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO32commNotAllowedRefDataInvalidatedyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "comNotAllowedConditionsOfUseNotSatisfied",
+            "printedName": "comNotAllowedConditionsOfUseNotSatisfied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO028comNotAllowedConditionsOfUseF9SatisfiedyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO028comNotAllowedConditionsOfUseF9SatisfiedyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "appletSelectionFailed",
+            "printedName": "appletSelectionFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO21appletSelectionFailedyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO21appletSelectionFailedyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "incorrectParamsInDataField",
+            "printedName": "incorrectParamsInDataField",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO26incorrectParamsInDataFieldyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO26incorrectParamsInDataFieldyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "functionNotSupported",
+            "printedName": "functionNotSupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO20functionNotSupportedyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO20functionNotSupportedyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "fileOrApplicationNotFound",
+            "printedName": "fileOrApplicationNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO25fileOrApplicationNotFoundyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO25fileOrApplicationNotFoundyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "recordNotFound",
+            "printedName": "recordNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO14recordNotFoundyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO14recordNotFoundyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "incorrectParametersP1P2",
+            "printedName": "incorrectParametersP1P2",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO23incorrectParametersP1P2yA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO23incorrectParametersP1P2yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "ncInconsistentWithParametersP1P2",
+            "printedName": "ncInconsistentWithParametersP1P2",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO32ncInconsistentWithParametersP1P2yA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO32ncInconsistentWithParametersP1P2yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "referenceDataNotFound",
+            "printedName": "referenceDataNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO21referenceDataNotFoundyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO21referenceDataNotFoundyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "instructionCodeNotSupportedOrInvalid",
+            "printedName": "instructionCodeNotSupportedOrInvalid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO36instructionCodeNotSupportedOrInvalidyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO36instructionCodeNotSupportedOrInvalidyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "classNotSupported",
+            "printedName": "classNotSupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO17classNotSupportedyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO17classNotSupportedyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "noPreciseDiagnosis",
+            "printedName": "noPreciseDiagnosis",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO18noPreciseDiagnosisyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO18noPreciseDiagnosisyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "authenticationFailed",
+            "printedName": "authenticationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO20authenticationFailedyA2CmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO20authenticationFailedyA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "authenticationFailedWithTriesLeft",
+            "printedName": "authenticationFailedWithTriesLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.StatusWord.Type) -> (APDUSenderFramework.TriesLeft) -> APDUSenderFramework.StatusWord",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(APDUSenderFramework.TriesLeft) -> APDUSenderFramework.StatusWord",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.StatusWord.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusWord",
+                        "printedName": "APDUSenderFramework.StatusWord",
+                        "usr": "s:19APDUSenderFramework10StatusWordO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework10StatusWordO33authenticationFailedWithTriesLeftyAcA0hI0OcACmF",
+            "mangledName": "$s19APDUSenderFramework10StatusWordO33authenticationFailedWithTriesLeftyAcA0hI0OcACmF",
+            "moduleName": "APDUSenderFramework",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19APDUSenderFramework10StatusWordO",
+        "mangledName": "$s19APDUSenderFramework10StatusWordO",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TriesLeft",
+        "printedName": "TriesLeft",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "left0",
+            "printedName": "left0",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO5left0yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO5left0yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left1",
+            "printedName": "left1",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO5left1yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO5left1yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left2",
+            "printedName": "left2",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO5left2yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO5left2yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left3",
+            "printedName": "left3",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO5left3yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO5left3yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left4",
+            "printedName": "left4",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO5left4yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO5left4yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left5",
+            "printedName": "left5",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO5left5yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO5left5yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left6",
+            "printedName": "left6",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO5left6yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO5left6yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left7",
+            "printedName": "left7",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO5left7yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO5left7yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left8",
+            "printedName": "left8",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO5left8yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO5left8yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left9",
+            "printedName": "left9",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO5left9yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO5left9yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left10",
+            "printedName": "left10",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO6left10yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO6left10yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left11",
+            "printedName": "left11",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO6left11yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO6left11yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left12",
+            "printedName": "left12",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO6left12yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO6left12yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left13",
+            "printedName": "left13",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO6left13yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO6left13yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left14",
+            "printedName": "left14",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO6left14yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO6left14yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "left15",
+            "printedName": "left15",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(APDUSenderFramework.TriesLeft.Type) -> APDUSenderFramework.TriesLeft",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "APDUSenderFramework.TriesLeft.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TriesLeft",
+                        "printedName": "APDUSenderFramework.TriesLeft",
+                        "usr": "s:19APDUSenderFramework9TriesLeftO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19APDUSenderFramework9TriesLeftO6left15yA2CmF",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO6left15yA2CmF",
+            "moduleName": "APDUSenderFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "APDUSenderFramework.TriesLeft?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TriesLeft",
+                    "printedName": "APDUSenderFramework.TriesLeft",
+                    "usr": "s:19APDUSenderFramework9TriesLeftO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19APDUSenderFramework9TriesLeftO8rawValueACSgs6UInt16V_tcfc",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO8rawValueACSgs6UInt16V_tcfc",
+            "moduleName": "APDUSenderFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APDUSenderFramework9TriesLeftO8rawValues6UInt16Vvp",
+            "mangledName": "$s19APDUSenderFramework9TriesLeftO8rawValues6UInt16Vvp",
+            "moduleName": "APDUSenderFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APDUSenderFramework9TriesLeftO8rawValues6UInt16Vvg",
+                "mangledName": "$s19APDUSenderFramework9TriesLeftO8rawValues6UInt16Vvg",
+                "moduleName": "APDUSenderFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19APDUSenderFramework9TriesLeftO",
+        "mangledName": "$s19APDUSenderFramework9TriesLeftO",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "UInt16",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APDUResponse",
+        "printedName": "APDUResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APDUSenderFramework12APDUResponseC4dataSays5UInt8VGvp",
+            "mangledName": "$s19APDUSenderFramework12APDUResponseC4dataSays5UInt8VGvp",
+            "moduleName": "APDUSenderFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APDUSenderFramework12APDUResponseC4dataSays5UInt8VGvg",
+                "mangledName": "$s19APDUSenderFramework12APDUResponseC4dataSays5UInt8VGvg",
+                "moduleName": "APDUSenderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusWord",
+            "printedName": "statusWord",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StatusWord",
+                "printedName": "APDUSenderFramework.StatusWord",
+                "usr": "s:19APDUSenderFramework10StatusWordO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19APDUSenderFramework12APDUResponseC10statusWordAA06StatusE0Ovp",
+            "mangledName": "$s19APDUSenderFramework12APDUResponseC10statusWordAA06StatusE0Ovp",
+            "moduleName": "APDUSenderFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusWord",
+                    "printedName": "APDUSenderFramework.StatusWord",
+                    "usr": "s:19APDUSenderFramework10StatusWordO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19APDUSenderFramework12APDUResponseC10statusWordAA06StatusE0Ovg",
+                "mangledName": "$s19APDUSenderFramework12APDUResponseC10statusWordAA06StatusE0Ovg",
+                "moduleName": "APDUSenderFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19APDUSenderFramework12APDUResponseC",
+        "mangledName": "$s19APDUSenderFramework12APDUResponseC",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AheadTLV",
+        "printedName": "AheadTLV",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "APDUSenderFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/APDUSender.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 4,
+      "value": "0x2A"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 240,
+      "length": 4,
+      "value": "0x22"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 279,
+      "length": 4,
+      "value": "0xCA"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 307,
+      "length": 4,
+      "value": "0xCB"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 330,
+      "length": 4,
+      "value": "0x20"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 357,
+      "length": 4,
+      "value": "0xA4"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 382,
+      "length": 4,
+      "value": "0xA6"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 4,
+      "value": "0xB0"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 4,
+      "value": "0xC0"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 460,
+      "length": 4,
+      "value": "0x84"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 495,
+      "length": 4,
+      "value": "0x82"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 4,
+      "value": "0x2A"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 240,
+      "length": 4,
+      "value": "0x22"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 279,
+      "length": 4,
+      "value": "0xCA"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 307,
+      "length": 4,
+      "value": "0xCB"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 330,
+      "length": 4,
+      "value": "0x20"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 357,
+      "length": 4,
+      "value": "0xA4"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 382,
+      "length": 4,
+      "value": "0xA6"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 4,
+      "value": "0xB0"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 4,
+      "value": "0xC0"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 460,
+      "length": 4,
+      "value": "0x84"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 495,
+      "length": 4,
+      "value": "0x82"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 4,
+      "value": "0x2A"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 240,
+      "length": 4,
+      "value": "0x22"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 279,
+      "length": 4,
+      "value": "0xCA"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 307,
+      "length": 4,
+      "value": "0xCB"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 330,
+      "length": 4,
+      "value": "0x20"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 357,
+      "length": 4,
+      "value": "0xA4"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 382,
+      "length": 4,
+      "value": "0xA6"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 4,
+      "value": "0xB0"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 4,
+      "value": "0xC0"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 460,
+      "length": 4,
+      "value": "0x84"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "kind": "IntegerLiteral",
+      "offset": 495,
+      "length": 4,
+      "value": "0x82"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 4,
+      "value": "0x0c"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 4,
+      "value": "0x0c"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 4,
+      "value": "0x00"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 4,
+      "value": "0x0c"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "kind": "IntegerLiteral",
+      "offset": 870,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "kind": "IntegerLiteral",
+      "offset": 918,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "kind": "IntegerLiteral",
+      "offset": 974,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1034,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1087,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1123,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "kind": "StringLiteral",
+      "offset": 1182,
+      "length": 10,
+      "value": "\"00000001\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "kind": "StringLiteral",
+      "offset": 1250,
+      "length": 10,
+      "value": "\"00000002\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4262,
+      "length": 4,
+      "value": "0x2D"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4314,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4319,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Utils\/CryptoUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Utils\/CryptoUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4528,
+      "length": 6,
+      "value": "0x9000"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4553,
+      "length": 6,
+      "value": "0x6281"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4603,
+      "length": 6,
+      "value": "0x6283"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4644,
+      "length": 6,
+      "value": "0x6700"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4682,
+      "length": 6,
+      "value": "0x6800"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4718,
+      "length": 6,
+      "value": "0x6982"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4775,
+      "length": 6,
+      "value": "0x6983"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4823,
+      "length": 6,
+      "value": "0x6984"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4873,
+      "length": 6,
+      "value": "0x6985"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4931,
+      "length": 6,
+      "value": "0x6999"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4970,
+      "length": 6,
+      "value": "0x6a80"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5014,
+      "length": 6,
+      "value": "0x6a81"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5052,
+      "length": 6,
+      "value": "0x6a82"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5095,
+      "length": 6,
+      "value": "0x6a83"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5127,
+      "length": 6,
+      "value": "0x6a86"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5168,
+      "length": 6,
+      "value": "0x6a87"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5218,
+      "length": 6,
+      "value": "0x6a88"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5257,
+      "length": 6,
+      "value": "0x6d00"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5311,
+      "length": 6,
+      "value": "0x6e00"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5346,
+      "length": 6,
+      "value": "0x6f00"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5391,
+      "length": 6,
+      "value": "0x6300"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6398,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6417,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6436,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6455,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6474,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6493,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6512,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6531,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6550,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6569,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6589,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6610,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6631,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6652,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6673,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6694,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6398,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6417,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6436,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6455,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6474,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6493,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6512,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6531,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6550,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6569,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6589,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6610,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6631,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6652,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6673,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6694,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6398,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6417,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6436,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6455,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6474,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6493,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6512,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6531,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6550,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6569,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6589,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6610,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6631,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6652,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6673,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6694,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasSecureMessaging.swift",
+      "kind": "IntegerLiteral",
+      "offset": 260,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasSecureMessaging.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 4,
+      "value": "\"80\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 4,
+      "value": "\"83\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 4,
+      "value": "\"87\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 4,
+      "value": "\"97\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 4,
+      "value": "\"8E\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 4,
+      "value": "\"99\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 4,
+      "value": "\"95\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 4,
+      "value": "\"80\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 4,
+      "value": "\"83\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 4,
+      "value": "\"87\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 4,
+      "value": "\"97\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 4,
+      "value": "\"8E\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 4,
+      "value": "\"99\""
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/odyYa8_z\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 4,
+      "value": "\"95\""
+    }
+  ]
+}
