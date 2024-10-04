@@ -1,6 +1,0 @@
-framework module APDUSenderFramework {
-  umbrella header "APDUSenderFramework.h"
-  export *
-
-  module * { export * }
-}
