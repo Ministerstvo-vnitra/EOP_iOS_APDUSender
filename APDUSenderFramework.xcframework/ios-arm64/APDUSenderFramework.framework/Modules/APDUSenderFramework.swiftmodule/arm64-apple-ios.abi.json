@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "APDUSenderFramework",
+    "printedName": "APDUSenderFramework",
     "children": [
       {
         "kind": "Import",
@@ -93,6 +93,22 @@
         "moduleName": "APDUSenderFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -243,6 +259,22 @@
         "moduleName": "APDUSenderFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -410,6 +442,22 @@
         "moduleName": "APDUSenderFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -461,6 +509,22 @@
         "moduleName": "APDUSenderFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -969,6 +1033,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1240,6 +1318,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -1538,7 +1630,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2550,6 +2658,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "RawRepresentable",
             "printedName": "RawRepresentable",
             "children": [
@@ -3260,6 +3382,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3433,7 +3569,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3467,966 +3619,539 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/APDUSender.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Utils\/Utils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 788,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Utils\/Utils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 803,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Utils\/Utils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 886,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Utils\/Utils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 969,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/APDUSender.swift",
       "kind": "BooleanLiteral",
       "offset": 1461,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
       "kind": "IntegerLiteral",
       "offset": 220,
       "length": 4,
       "value": "0x2A"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
       "kind": "IntegerLiteral",
       "offset": 240,
       "length": 4,
       "value": "0x22"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
       "kind": "IntegerLiteral",
       "offset": 279,
       "length": 4,
       "value": "0xCA"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
       "kind": "IntegerLiteral",
       "offset": 307,
       "length": 4,
       "value": "0xCB"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
       "kind": "IntegerLiteral",
       "offset": 330,
       "length": 4,
       "value": "0x20"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
       "kind": "IntegerLiteral",
       "offset": 357,
       "length": 4,
       "value": "0xA4"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
       "kind": "IntegerLiteral",
       "offset": 382,
       "length": 4,
       "value": "0xA6"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
       "kind": "IntegerLiteral",
       "offset": 403,
       "length": 4,
       "value": "0xB0"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
       "kind": "IntegerLiteral",
       "offset": 431,
       "length": 4,
       "value": "0xC0"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
       "kind": "IntegerLiteral",
       "offset": 460,
       "length": 4,
       "value": "0x84"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
       "kind": "IntegerLiteral",
       "offset": 495,
       "length": 4,
       "value": "0x82"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 220,
-      "length": 4,
-      "value": "0x2A"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 240,
-      "length": 4,
-      "value": "0x22"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 279,
-      "length": 4,
-      "value": "0xCA"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 307,
-      "length": 4,
-      "value": "0xCB"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 330,
-      "length": 4,
-      "value": "0x20"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 357,
-      "length": 4,
-      "value": "0xA4"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 382,
-      "length": 4,
-      "value": "0xA6"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 403,
-      "length": 4,
-      "value": "0xB0"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 431,
-      "length": 4,
-      "value": "0xC0"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 460,
-      "length": 4,
-      "value": "0x84"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 495,
-      "length": 4,
-      "value": "0x82"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 220,
-      "length": 4,
-      "value": "0x2A"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 240,
-      "length": 4,
-      "value": "0x22"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 279,
-      "length": 4,
-      "value": "0xCA"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 307,
-      "length": 4,
-      "value": "0xCB"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 330,
-      "length": 4,
-      "value": "0x20"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 357,
-      "length": 4,
-      "value": "0xA4"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 382,
-      "length": 4,
-      "value": "0xA6"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 403,
-      "length": 4,
-      "value": "0xB0"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 431,
-      "length": 4,
-      "value": "0xC0"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 460,
-      "length": 4,
-      "value": "0x84"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduInstructionSet.swift",
-      "kind": "IntegerLiteral",
-      "offset": 495,
-      "length": 4,
-      "value": "0x82"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
       "kind": "IntegerLiteral",
       "offset": 219,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
       "kind": "IntegerLiteral",
       "offset": 239,
       "length": 4,
       "value": "0x0c"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
-      "kind": "IntegerLiteral",
-      "offset": 219,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
-      "kind": "IntegerLiteral",
-      "offset": 239,
-      "length": 4,
-      "value": "0x0c"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
-      "kind": "IntegerLiteral",
-      "offset": 219,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/ApduClassification.swift",
-      "kind": "IntegerLiteral",
-      "offset": 239,
-      "length": 4,
-      "value": "0x0c"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
       "kind": "IntegerLiteral",
       "offset": 870,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
       "kind": "IntegerLiteral",
       "offset": 918,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
       "kind": "IntegerLiteral",
       "offset": 974,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
       "kind": "IntegerLiteral",
       "offset": 1034,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
       "kind": "IntegerLiteral",
       "offset": 1087,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
       "kind": "IntegerLiteral",
       "offset": 1123,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 1182,
       "length": 10,
       "value": "\"00000001\""
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
       "kind": "StringLiteral",
       "offset": 1250,
       "length": 10,
       "value": "\"00000002\""
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
       "kind": "IntegerLiteral",
       "offset": 4262,
       "length": 4,
       "value": "0x2D"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
       "kind": "IntegerLiteral",
       "offset": 4314,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasMutualAuthentication.swift",
       "kind": "IntegerLiteral",
       "offset": 4319,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Utils\/CryptoUtils.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Utils\/CryptoUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 280,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Utils\/CryptoUtils.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Utils\/CryptoUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 290,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 4528,
       "length": 6,
       "value": "0x9000"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 4553,
       "length": 6,
       "value": "0x6281"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 4603,
       "length": 6,
       "value": "0x6283"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 4644,
       "length": 6,
       "value": "0x6700"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 4682,
       "length": 6,
       "value": "0x6800"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 4718,
       "length": 6,
       "value": "0x6982"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 4775,
       "length": 6,
       "value": "0x6983"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 4823,
       "length": 6,
       "value": "0x6984"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 4873,
       "length": 6,
       "value": "0x6985"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 4931,
       "length": 6,
       "value": "0x6999"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 4970,
       "length": 6,
       "value": "0x6a80"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 5014,
       "length": 6,
       "value": "0x6a81"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 5052,
       "length": 6,
       "value": "0x6a82"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 5095,
       "length": 6,
       "value": "0x6a83"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 5127,
       "length": 6,
       "value": "0x6a86"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 5168,
       "length": 6,
       "value": "0x6a87"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 5218,
       "length": 6,
       "value": "0x6a88"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 5257,
       "length": 6,
       "value": "0x6d00"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 5311,
       "length": 6,
       "value": "0x6e00"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 5346,
       "length": 6,
       "value": "0x6f00"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 5391,
       "length": 6,
       "value": "0x6300"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6398,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6417,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6436,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6455,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6474,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6493,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6512,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6531,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6550,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6569,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6589,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6610,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6631,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6652,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6673,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
       "kind": "IntegerLiteral",
       "offset": 6694,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6398,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6417,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6436,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6455,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6474,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6493,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6512,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6531,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6550,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6569,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6589,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6610,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6631,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6652,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6673,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6694,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6398,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6417,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6436,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6455,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6474,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6493,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6512,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6531,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6550,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6569,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6589,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6610,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6631,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6652,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6673,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/StatusWord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6694,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasSecureMessaging.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasSecureMessaging.swift",
       "kind": "IntegerLiteral",
       "offset": 260,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasSecureMessaging.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/SecureMessaging\/IasSecureMessaging.swift",
       "kind": "IntegerLiteral",
       "offset": 312,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 4,
       "value": "\"80\""
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
       "kind": "StringLiteral",
       "offset": 202,
       "length": 4,
       "value": "\"83\""
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 4,
       "value": "\"87\""
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
       "kind": "StringLiteral",
       "offset": 291,
       "length": 4,
       "value": "\"97\""
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 4,
       "value": "\"8E\""
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 4,
       "value": "\"99\""
     },
     {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
-      "kind": "StringLiteral",
-      "offset": 489,
-      "length": 4,
-      "value": "\"95\""
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
-      "kind": "StringLiteral",
-      "offset": 174,
-      "length": 4,
-      "value": "\"80\""
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
-      "kind": "StringLiteral",
-      "offset": 202,
-      "length": 4,
-      "value": "\"83\""
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
-      "kind": "StringLiteral",
-      "offset": 258,
-      "length": 4,
-      "value": "\"87\""
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
-      "kind": "StringLiteral",
-      "offset": 291,
-      "length": 4,
-      "value": "\"97\""
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
-      "kind": "StringLiteral",
-      "offset": 311,
-      "length": 4,
-      "value": "\"8E\""
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
-      "kind": "StringLiteral",
-      "offset": 344,
-      "length": 4,
-      "value": "\"99\""
-    },
-    {
-      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/AHE_EOP\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
+      "filePath": "\/Users\/testing\/builds\/WsLyDPiy\/0\/mobile-development\/ios\/did\/eop\/Libraries\/APDUSender_iOS\/Sources\/APDUSenderFramework\/Structures\/TlvTagsSM.swift",
       "kind": "StringLiteral",
       "offset": 489,
       "length": 4,
